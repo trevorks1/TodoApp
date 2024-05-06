@@ -1,11 +1,20 @@
 import React from 'react';
 
-function FilterTodos({ filter, setFilter }: { filter: string; setFilter: (filter: string) => void }) {
+interface FilterTodosProps {
+  filter: string;
+  setFilter: (filter: string) => void;
+}
+
+const FilterTodos: React.FC<FilterTodosProps> = ({ filter, setFilter }) => {
+  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setFilter(e.target.value);
+  };
+
   return (
     <div>
       <label>
         Filter:
-        <select value={filter} onChange={(e) => setFilter(e.target.value)}>
+        <select value={filter} onChange={handleChange}>
           <option value="all">All</option>
           <option value="completed">Completed</option>
           <option value="active">Active</option>
