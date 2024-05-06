@@ -1,17 +1,17 @@
-#TodoApp
+# TodoApp
 Welcome to TodoApp, a simple todo list application built using TypeScript and TSX for the 30-day code challenge.
 
-##Introduction
+## Introduction
 TodoApp is a minimalistic yet functional todo list application designed to help you manage your tasks efficiently. With its intuitive interface and powerful features, organizing your daily tasks has never been easier.
 
-##Features
+## Features
 Add Tasks: Quickly add new tasks to your list.
 Delete Tasks: Remove tasks you no longer need.
 Complete Tasks: Mark tasks as complete to keep track of your progress.
 Filter Tasks: Filter tasks based on their completion status (all, active, completed).
 Persistent Storage: Your tasks are saved locally, so you won't lose them when you close the app.
-##Installation
-###To get started with TodoApp, follow these steps:
+## Installation
+### To get started with TodoApp, follow these steps:
 
 Clone this repository to your local machine:
 bash
