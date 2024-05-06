@@ -14,20 +14,21 @@ Persistent Storage: Your tasks are saved locally, so you won't lose them when yo
 ### To get started with TodoApp, follow these steps:
 
 1. Clone this repository to your local machine:
-bash
-Copy code
+```
 git clone https://github.com/your-username/todo-app.git
+```
 2. Navigate to the project directory:
-bash
-Copy code
+```
 cd todo-app
+```
 3. Install dependencies:
-Copy code
+```
 npm install
+```
 4. Start the development server:
-sql
-Copy code
+```
 npm start
+```
 5. Open your web browser and visit http://localhost:3000 to use TodoApp.
 ## Usage
 Adding a Task: Enter the task in the input field at the top and press Enter.
