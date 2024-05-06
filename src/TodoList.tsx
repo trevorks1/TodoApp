@@ -9,13 +9,13 @@ interface Todo {
 
 interface TodoListProps {
   todos: Todo[];
-  filter: string;
+  filter?: string; // Make filter prop optional
   onToggleComplete: (id: number) => void;
   onUpdateText: (id: number, newText: string) => void;
   onDelete: (id: number) => void;
 }
 
-const TodoList: React.FC<TodoListProps> = ({ todos, filter, onToggleComplete, onUpdateText, onDelete }) => {
+const TodoList: React.FC<TodoListProps> = ({ todos, filter = 'all', onToggleComplete, onUpdateText, onDelete }) => {
   const filteredTodos = filter === 'all'
     ? todos
     : filter === 'completed'

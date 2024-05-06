@@ -23,6 +23,9 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 header h1 {
@@ -87,6 +90,12 @@ main {
   margin-bottom: 20px;
 }
 
+.add-todo-form {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px;
+}
+
 .add-todo-form input[type="text"] {
   flex: 1;
   padding: 10px;
@@ -99,7 +108,7 @@ main {
   background-color: #28a745;
   color: #fff;
   border: none;
-  padding: 10px 15px;
+  padding: 10px 20px; /* Increase padding for the button */
   border-radius: 4px;
   cursor: pointer;
 }
@@ -108,10 +117,29 @@ main {
   background-color: #218838;
 }
 
+/* FilterTodos styles */
+.filter-todos {
+  margin-bottom: 20px;
+}
+
+.filter-todos label {
+  margin-right: 10px;
+}
+
+.filter-todos select {
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 /* Footer styles */
 footer {
   background-color: #343a40;
   color: #fff;
   padding: 20px;
   text-align: center;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
 }
