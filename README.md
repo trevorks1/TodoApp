@@ -15,7 +15,7 @@ Persistent Storage: Your tasks are saved locally, so you won't lose them when yo
 
 1. Clone this repository to your local machine:
 ```
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/your-username/todoapp.git
 ```
 2. Navigate to the project directory:
 ```
