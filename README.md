@@ -29,18 +29,18 @@ sql
 Copy code
 npm start
 5. Open your web browser and visit http://localhost:3000 to use TodoApp.
-Usage
+## Usage
 Adding a Task: Enter the task in the input field at the top and press Enter.
 Deleting a Task: Click on the delete icon next to the task you want to remove.
 Completing a Task: Click on the checkbox next to the task to mark it as complete.
 Filtering Tasks: Use the buttons at the bottom to filter tasks based on their completion status.
-Technologies Used
+## Technologies Used
 TypeScript: Typed superset of JavaScript for enhanced developer experience and code quality.
 React: JavaScript library for building user interfaces.
 TSX: TypeScript syntax extension for React.
 LocalStorage: Browser API used for storing tasks locally.
-Contributing
+## Contributing
 If you have any suggestions or found a bug, feel free to open an issue or submit a pull request. Contributions are welcome!
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
